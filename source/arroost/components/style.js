@@ -10,7 +10,6 @@ export const Style = class extends Component {
 	stroke = this.use("none", { store: false })
 	strokeWidth = this.use(1)
 	cursor = this.use("default")
-	shadow = this.use(false)
 
 	/** @type {Signal<"none" | "all" | "inherit">} */
 	pointerEvents = this.use("inherit")
